@@ -42,6 +42,7 @@ header a:hover {
     background-color: #ffc107;
     color: black;
     padding: 10px;
+    transition: 0.4s;
 
 }
 .hero {
@@ -341,8 +342,20 @@ hr{
 
 .numero {
     padding: 20px;
-    font-size: 30px;
+    font-size: 25px;
+    
 }
+
+.numero:hover {
+    font-size: 2.5rem;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #ffc107;
+    
+    
+}
+
+
 
 .endereco {
     font-size: 20px;
@@ -352,12 +365,19 @@ hr{
 .endereco a {
     text-decoration: none;
     color: #000000;
+    display: inline-block;
+    padding: 1 rem 2rem;
+  
+
+
+    
 
 }
 
 .endereco a:hover {
     color: #ffc107;
-    transition: all 0.3s;
+    transition:  0.3s;
+    font-size: 1.4rem;
 }
 
 .segunda {
